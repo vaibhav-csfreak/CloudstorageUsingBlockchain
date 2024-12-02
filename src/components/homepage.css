@@ -1,0 +1,112 @@
+
+      
+     
+      
+       
+      .home-page {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.386), rgba(0, 0, 0, 0.468)), url("ether.jpg");
+        background-repeat: no-repeat;
+        z-index: -1;
+        margin-bottom: 111.2px;
+        min-width: none;
+        
+        
+      }
+      
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 60px;
+        
+      }
+      
+      .subtitle {
+        font-size: 16px;
+        color: #c3c1c1;
+        
+      }
+      
+      .login-button {
+        cursor: pointer;
+        border: none;
+        background: #343a40;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+      }
+      .login-button-register {
+        cursor: pointer;
+        border: none;
+        background: #343a40;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+
+      
+      .login-button  .login-button-register :hover {
+        text-decoration: underline;
+        color: #fff;
+      }
+      
+      .features {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+      }
+      
+      .feature {
+        flex: 1;
+        max-width: 300px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #343a40;
+        border-radius: 8px;
+       
+      }
+      
+      .feature-icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 10px;
+        color: rgb(44, 44, 189);
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        
+      }
+      .feature-icon:hover {
+        transform: scale(1.1); /* Enlarge the icon on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Apply a stronger box shadow on hover */
+      }
+      
+      .feature-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+      }
+      
+      .feature-description {
+        font-size: 16px;
+        color: #fff;
+      }
+      
+ 
+      
+     
+            

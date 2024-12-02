@@ -1,0 +1,46 @@
+.app-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-content {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  #loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .loader-text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .loader-bar {
+    width: 100px;
+    height: 4px;
+    background-color: #ddd;
+    margin-top: 10px;
+    border-radius: 2px;
+    animation: loader-progress 2s infinite;
+  }
+  
+  @keyframes loader-progress {
+    0% {
+      width: 10px;
+    }
+    50% {
+      width: 80px;
+    }
+    100% {
+      width: 10px;
+    }
+  }
+  

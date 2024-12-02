@@ -1,0 +1,91 @@
+/* files.css */
+.bg{
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.386), rgba(0, 0, 0, 0.468)), url(./ether.jpg);
+    margin-top: -45px;
+    
+    
+}
+.container-fluid {
+    margin-top: 20px;
+    text-align: center;
+   
+  }
+  
+  .card {
+    background-color: #343a40;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 24px;
+  }
+  
+  .table-div {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      padding: 10px;
+    }
+  
+    .card-title {
+      font-size: 16px;
+    }
+  
+    .card-text {
+      font-size: 20px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  
+    th,
+    td {
+      padding: 8px;
+    }
+  }
+  

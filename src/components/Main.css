@@ -1,0 +1,144 @@
+
+
+  /* Styles go here */
+
+body {
+  overflow: hidden;
+}
+
+.bg-img-main {
+  background: linear-gradient(rgba(0, 0, 0, 0.386), rgba(0, 0, 0, 0.468)), url(./ether.jpg);
+  height: 92.77vh;
+  margin-top: -45px;
+}
+
+.container-fluid {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #343a40;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #555;
+  color: #fff;
+}
+
+.drag-drop-container {
+  border: 2px dashed #aaa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.drag-drop-container.drag-over {
+  border-color: #3f51b5;
+}
+
+.drag-drop-text {
+  color: #aaa;
+}
+
+.upload-button {
+  width: 50%;
+  margin-top: 1.5rem;
+  margin-left: 23%;
+  padding: 0.75rem;
+  color: hsla(0, 81%, 4%, 0.947);
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #3f51b5;
+  border-color: #3f51b5;
+  color: aliceblue;
+}
+
+.table-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Additional styles */
+
+.form-group.dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropzone {
+  width: 100%;
+  height: 150px;
+  border: 2px dashed #aaa;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dropzone p {
+  color: #aaa;
+}
+
+.dropzone:hover {
+  border-color: #3f51b5;
+}
+
+.dropzone.drag-over {
+  border-color: #3f51b5;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropzone.dragged-over {
+  border-color: blue;
+}
+
+.dropzone.dragged-over p {
+  color: blue;
+}
+
+a :hover{
+  color:white;
+}
